@@ -1,0 +1,12 @@
+{% extends "layouts/base.html" %}
+
+{% block title %}Answer{% endblock %}
+
+{% block content %}
+    <div class="d-flex align-items-center flex-column">
+        {% include "components/grid.html" %}
+        <a href="{{ url_for('core.index')}}" class="d-flex justify-content-center flex-row w-25 mx-2">
+            <span class="btn btn-outline-dark flex-grow-1 mw-75">New attempt</span>
+        </a>
+    </div>
+{% endblock %}

@@ -1,0 +1,43 @@
+body {
+    font-family: "Nunito", sans-serif !important;
+}
+
+a, a:hover {
+    text-decoration: none !important;
+    outline: none !important;
+}
+
+.input-file {
+    display: none;
+}
+
+.input-wrapper-file {
+    height: 150px;
+    width: 150px;
+    background-image: url("../images/button-add.png"), url("../images/picture.png");
+    background-repeat: no-repeat, no-repeat;
+    background-size: 50px, 100%;
+    background-position: 65px 65px, 0 0;
+}
+
+.input-wrapper-file:hover {
+    background-image: url("../images/button-add-hover.png"), url("../images/picture.png");
+}
+
+.input-wrapper-file-busy {
+    background-image: url("../images/button-add-busy.png"), url("../images/picture.png");
+}
+
+.cell-grid {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    width: 50px;
+    border: 2px solid #434a54;
+    font-size: 30px;
+}
+
+.cell-grid-start {
+    border: 2px solid #fbd812;
+}

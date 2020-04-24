@@ -1,0 +1,11 @@
+<div class="d-flex align-items-center flex-column m-4">
+    {% for row in grid %}
+        <div class="d-flex flex-row">
+            {% for cell in row %}
+                <div class="cell-grid">
+                    {{ cell }}
+                </div>
+            {% endfor %}
+        </div>
+    {% endfor %}
+</div>
