@@ -135,4 +135,8 @@ dmypy.json
 # Remove previous ipynb_checkpoints
 #   git rm -r .ipynb_checkpoints/
 #
+mnist_dataset
+*/mnist_dataset/*
+
+.idea
 
