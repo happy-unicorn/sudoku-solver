@@ -1,6 +1,5 @@
 $(document).ready(function() {
     $('.input-file').change(function() {
-        console.log($(this).val());
         if ($(this).val() !== '') {
             $('#button-submit').prop('disabled', false);
             $('.input-wrapper-file').addClass('input-wrapper-file-busy');
