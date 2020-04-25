@@ -137,6 +137,6 @@ dmypy.json
 #
 mnist_dataset
 */mnist_dataset/*
-
+*.sav
 .idea
 
