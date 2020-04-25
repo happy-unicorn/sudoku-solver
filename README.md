@@ -9,7 +9,11 @@
     ```bash
     cd sudoku-solver
     ```
-3. Run
+3. Learn
+    ```bash
+    docker-compose run flask python sudoku_solver.py train_model
+    ```
+4. Run
     ```bash
     docker-compose up
     ```
