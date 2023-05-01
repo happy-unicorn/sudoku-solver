@@ -1,4 +1,4 @@
-flask==1.1.2
+flask==2.3.2
 flask-script==2.0.6
 numpy==1.18.3
 opencv-python==4.2.0.34
